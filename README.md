@@ -11,13 +11,12 @@ Installation
 
 * Edit the hosts file to include
 
-127.0.0.1   phpsample.localhost
+`127.0.0.1   phpsample.localhost`
 
 
 * Edit your apache sites file:
-`
-<VirtualHost *:80>
 
+<VirtualHost *:80>
     ServerName phpsample.localhost
     DocumentRoot /home/youruser/workspace/php-apium-bootstrap/www
     php_value auto_prepend_file /home/xavi/workspace/php-apium-bootstrap/config/phpIni.conf.php
@@ -28,9 +27,7 @@ Installation
 		AllowOverride All
 		Require all granted
 	</Directory>
-
 </VirtualHost>
-`
 
 
 Run the tests
