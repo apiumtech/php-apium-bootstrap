@@ -3,7 +3,7 @@ php-apium-bootstrap
 
 Enterprise custom php framework to demonstrate design patterns by example
 
-
+This framework comes as 'it is', for learning purposes with the basis of a well layered php application.
 
 
 Installation
@@ -15,7 +15,7 @@ Installation
 
 
 * Edit your apache sites file:
-
+`
 <VirtualHost *:80>
 
     ServerName phpsample.localhost
@@ -30,7 +30,7 @@ Installation
 	</Directory>
 
 </VirtualHost>
-
+`
 
 
 Run the tests
